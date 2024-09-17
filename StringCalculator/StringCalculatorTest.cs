@@ -32,4 +32,15 @@ public class StringCalculatorTest
 
         Assert.Equal(expected, result);
     }
+
+      [Theory]
+    [InlineData("1, 2, 3", 6)]
+    [InlineData("5, 5, 5", 15)]
+
+    public void AddThreeNumbersTogether(string numbers, int expected)
+    {
+        var result = _calculator.Add(numbers);
+
+        Assert.Equal(expected, result);
+    }
 }

@@ -96,3 +96,4 @@
 /Users/lil/c#-unit-testing-StringCalculator/StringCalculator/obj/Debug/net8.0/StringCalculator.pdb
 /Users/lil/c#-unit-testing-StringCalculator/StringCalculator/obj/Debug/net8.0/StringCalculator.genruntimeconfig.cache
 /Users/lil/c#-unit-testing-StringCalculator/StringCalculator/obj/Debug/net8.0/ref/StringCalculator.dll
+/Users/lil/c#-unit-testing-StringCalculator/StringCalculator/obj/Debug/net8.0/StringCalculator.sourcelink.json
