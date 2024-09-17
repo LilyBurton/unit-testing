@@ -78,4 +78,16 @@ public class StringCalculatorTest
 
         Assert.Equal(expectedMessage, err.Message);
     }
+
+     [Theory]
+    [InlineData("3000, 2, 3", 5)]
+    [InlineData("1001, 2", 2)]
+    [InlineData("1000, 1", 1001)]
+
+    public void IgnoringValuesOverAThousand(string numbers, int expected)
+    {
+        var result = _calculator.Add(numbers);
+
+        Assert.Equal(expected, result);
+    }
 }
